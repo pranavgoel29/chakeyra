@@ -1,4 +1,15 @@
-.header { grid-area: header; }
+.body
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+.header 
+{
+  grid-area: header;
+  font-weight: 800;
+  font-size: 2rem;
+}
 .menu { grid-area: menu; }
 .streamer { grid-area: streamer; }
 .streamer-words { grid-area: streamer-words; }
@@ -12,15 +23,17 @@
     'menu streamer streamer streamer chat chat chat'
     'menu streamer-words streamer-words streamer-words chat-words chat-words chat-words';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #00335d;
   padding: 10px;
+  font-weight: 550;
+  font-size: 1.2rem;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(205, 249, 255, 0.8);
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   padding: 20px 0;
-  font-size: 30px;
 }
 
 .correct {
