@@ -11,7 +11,7 @@ module.exports = {
 function connect(server) {
   serverSocket = server;
   ComfyJS.onChat = chatHandler;
-  ComfyJS.Init('clarkio');
+  ComfyJS.Init('pranavgoel_29');
 }
 
 function startGame() {
